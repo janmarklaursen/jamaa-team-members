@@ -1,0 +1,24 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/team-member/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.team-member--container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+  box-shadow: 1px 2px 8px 0 #c6c5c5;
+}
+.team-member--container:first-child {
+  margin-top: 0;
+}
+.team-member--container:last-child {
+  margin-bottom: 0;
+}
+.team-member--container .bio--textbox {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/
