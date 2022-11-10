@@ -18,7 +18,7 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function save() {
 	return (
 		<p { ...useBlockProps.save() }>
-			{ 'teamMembers4 – hello from the saved content! Finaly' }
+			{ 'team-members4 – hello from the saved content! Finaly' }
 		</p>
 	);
 }

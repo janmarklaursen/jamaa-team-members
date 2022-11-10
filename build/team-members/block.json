@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
-  "name": "jamaa-blocks/teamMembers",
+  "name": "jamaa-blocks/team-members",
   "version": "0.1.0",
   "title": "Team Members",
   "category": "media",
   "icon": "admin-users",
-  "description": "A team members grid.",
+  "description": "A Team Members grid.",
   "keywords": [
     "Team",
     "Members",
@@ -16,7 +16,7 @@
   "supports": {
     "html": false
   },
-  "textdomain": "teamMembers",
+  "textdomain": "team-members",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css"

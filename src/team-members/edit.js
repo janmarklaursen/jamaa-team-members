@@ -5,7 +5,10 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			{ __( 'teamMembers – hello from the editor! YES!', 'boilerplate' ) }
+			{ __(
+				'team-members – hello from the editor! YES!',
+				'boilerplate'
+			) }
 		</p>
 	);
 }
