@@ -23,8 +23,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Edit() {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)(), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('team-memberbers – hello from the editor! YES!', 'boilerplate'));
+function Edit(props) {
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
+    tagName: "h4" // The tag here is the element output and editable in the admin
+    ,
+    value: props.attributes.name // Any existing content, either from the database or an attribute default
+    ,
+    allowedFormats: [] // Allow the content to be made bold or italic, but do not allow other formatting options
+    ,
+    onChange: name => props.setAttributes({
+      name
+    }) // Store updated content as a block attribute
+    ,
+    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Memeber Name') // Display this text before any content has been added by the user
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
+    tagName: "p" // The tag here is the element output and editable in the admin
+    ,
+    value: props.attributes.bio // Any existing content, either from the database or an attribute default
+    ,
+    allowedFormats: [] // Allow the content to be made bold or italic, but do not allow other formatting options
+    ,
+    onChange: bio => props.setAttributes({
+      bio
+    }) // Store updated content as a block attribute
+    ,
+    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Member Bio') // Display this text before any content has been added by the user
+  }));
 }
 
 /***/ }),
@@ -162,7 +186,7 @@ module.exports = window["wp"]["i18n"];
   \************************************/
 /***/ (function(module) {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"jamaa-blocks/team-memberber","version":"0.1.0","title":"Team Memberber","category":"media","icon":"admin-users","description":"A Team Memberber gridddd.","parent":["jamaa-blocks/team-members"],"keywords":["Team","Members","Grid","Jamaa"],"supports":{"html":false},"attributes":{"name":{"type":"string"},"bio":{"type":"string"}},"textdomain":"team-memberbers","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"jamaa-blocks/team-memberber","version":"0.1.0","title":"Team Memberber","category":"media","icon":"admin-users","description":"A Team Memberber grid eeeee.","parent":["jamaa-blocks/team-members"],"keywords":["Team","Members","Grid","Jamaa"],"supports":{"html":false},"attributes":{"name":{"type":"string"},"bio":{"type":"string"}},"textdomain":"team-memberbers","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 
