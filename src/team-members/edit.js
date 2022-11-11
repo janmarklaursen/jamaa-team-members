@@ -4,9 +4,10 @@ import './editor.scss';
 
 export default function Edit() {
 	const ALLOWED_BLOCKS = [ 'jamaa-blocks/team-member' ];
+	const blockProps = useBlockProps();
 
 	return (
-		<div { ...useBlockProps }>
+		<div { ...blockProps }>
 			<InnerBlocks allowedBlocks={ ALLOWED_BLOCKS } />
 		</div>
 	);

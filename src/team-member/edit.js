@@ -3,8 +3,9 @@ import { useBlockProps, RichText } from '@wordpress/block-editor';
 import './editor.scss';
 
 export default function Edit( props ) {
+	const blockProps = useBlockProps();
 	return (
-		<div { ...useBlockProps }>
+		<div { ...blockProps }>
 			<RichText
 				tagName="h4" // The tag here is the element output and editable in the admin
 				value={ props.attributes.name } // Any existing content, either from the database or an attribute default
