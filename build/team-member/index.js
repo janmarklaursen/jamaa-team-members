@@ -162,7 +162,7 @@ module.exports = window["wp"]["i18n"];
   \************************************/
 /***/ (function(module) {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"jamaa-blocks/team-memberbers","version":"0.1.0","title":"Team Memberbers","category":"media","icon":"admin-users","description":"A Team Memberbers grid.","parent":["jamaa-blocks/team-members"],"keywords":["Team","Members","Grid","Jamaa"],"supports":{"html":false},"attributes":{"name":{"type":"string"},"bio":{"type":"string"}},"textdomain":"team-memberbers","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"jamaa-blocks/team-memberber","version":"0.1.0","title":"Team Memberber","category":"media","icon":"admin-users","description":"A Team Memberber gridddd.","parent":["jamaa-blocks/team-members"],"keywords":["Team","Members","Grid","Jamaa"],"supports":{"html":false},"attributes":{"name":{"type":"string"},"bio":{"type":"string"}},"textdomain":"team-memberbers","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 

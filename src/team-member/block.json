@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "jamaa-blocks/team-memberbers",
+	"name": "jamaa-blocks/team-memberber",
 	"version": "0.1.0",
-	"title": "Team Memberbers",
+	"title": "Team Memberber",
 	"category": "media",
 	"icon": "admin-users",
-	"description": "A Team Memberbers grid.",
+	"description": "A Team Memberber gridddd.",
 	"parent": [
 		"jamaa-blocks/team-members"
 	],
